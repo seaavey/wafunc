@@ -5,6 +5,12 @@
  */
 
 /**
+ * Mengimpor kelas Uploader dari modul uploader
+ * @class Uploader - Kelas untuk mengupload file media ke layanan hosting file Pomf
+ */
+const Uploader = require("./lib/uploader");
+
+/**
  * Mengimpor fungsi-fungsi dari modul fetcher
  * @function fetchBuffer - Mengambil data buffer dari URL
  * @function fetchJson - Mengambil data JSON dari URL
@@ -52,4 +58,7 @@ module.exports = {
   // Fungsi Manipulasi String
   toUpper, // Kapitalisasi kata
   toLower, // Lowercase kata
+
+  // Fungsi Uploader
+  Uploader, // Upload file media
 };

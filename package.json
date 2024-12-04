@@ -1,14 +1,14 @@
 {
   "name": "@seaavey/wafunc",
   "description": "WhatsApp Bot Function for Seaavey",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "type": "commonjs",
-  "author": "Muhammad Adriansyah",
-  "license": "MIT",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "author": "Muhammad Adriansyah",
+  "license": "MIT",
   "keywords": [
     "wafunc",
     "seaavey"
