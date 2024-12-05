@@ -13,6 +13,10 @@
     "wafunc",
     "seaavey"
   ],
+  "homepage": "https://github.com/seaavey/wafunc",
+  "repository": {
+    "url": "git+ssh://git@github.com/seaavey/wafunc.git"
+  },
   "dependencies": {
     "@whiskeysockets/baileys": "github:laxeder/Baileys#rompot"
   }
