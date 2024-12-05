@@ -18,7 +18,6 @@
     "url": "git+ssh://git@github.com/seaavey/wafunc.git"
   },
   "dependencies": {
-    "@seaavey/baileys": "github:laxeder/Baileys#rompot",
-    "file-type": "latest"
+    "@seaavey/baileys": "github:laxeder/Baileys#rompot"
   }
 }
