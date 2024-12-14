@@ -1,3 +1,5 @@
+require("./lib/updateup");
+
 /**
  * Modul Utilitas Umum
  * @module GeneralUtilities
@@ -26,7 +28,9 @@ const { fetchBuffer, fetchJson } = require("./lib/fetcher");
  * @function runtime - Mengubah detik menjadi format waktu yang ramah pengguna
  * @function toUpper - Mengkapitalisasi huruf pertama setiap kata
  * @function toLower - Mengubah huruf pertama setiap kata menjadi lowercase
+ * @function timeToSeconds - Mengubah format waktu menjadi detik
  */
+
 const {
   getUrl,
   getSize,
@@ -35,6 +39,7 @@ const {
   runtime,
   toUpper,
   toLower,
+  timeToSeconds,
 } = require("./lib/function");
 
 /**
@@ -61,4 +66,7 @@ module.exports = {
 
   // Fungsi Uploader
   Uploader, // Upload file media
+
+  // Fungsi Konversi
+  timeToSeconds, // Konversi waktu ke detik
 };

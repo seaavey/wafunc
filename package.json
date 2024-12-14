@@ -1,7 +1,7 @@
 {
   "name": "@seaavey/wafunc",
   "description": "WhatsApp Bot Function for Seaavey",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "index.js",
   "type": "commonjs",
   "scripts": {
