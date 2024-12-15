@@ -1,4 +1,4 @@
-require("./lib/updateup");
+// require("./lib/updateup");
 
 /**
  * Modul Utilitas Umum
@@ -69,4 +69,7 @@ module.exports = {
 
   // Fungsi Konversi
   timeToSeconds, // Konversi waktu ke detik
+
+  // Lowdb Module
+  ...require("./lib/lowdb"),
 };
