@@ -42,6 +42,8 @@ const {
   timeToSeconds,
 } = require("./lib/function");
 
+const Button = require("./lib/button");
+
 /**
  * Ekspor semua fungsi utilitas
  * @exports GeneralUtilities
@@ -72,4 +74,7 @@ module.exports = {
 
   // Lowdb Module
   ...require("./lib/lowdb"),
+
+  // Button Module
+  Button,
 };

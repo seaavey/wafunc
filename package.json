@@ -1,7 +1,7 @@
 {
   "name": "@seaavey/wafunc",
   "description": "WhatsApp Bot Function for Seaavey",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "main": "index.js",
   "type": "commonjs",
   "scripts": {
@@ -18,7 +18,8 @@
     "url": "git+ssh://git@github.com/seaavey/wafunc.git"
   },
   "dependencies": {
-    "@seaavey/baileys": "github:laxeder/Baileys#rompot",
+    "@seaavey/baileys": "github:nstar-y/Bail",
+    "lodash": "^4.17.21",
     "steno": "^1.0.0"
   }
 }
