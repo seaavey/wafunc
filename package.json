@@ -18,7 +18,7 @@
     "url": "git+ssh://git@github.com/seaavey/wafunc.git"
   },
   "dependencies": {
-    "@seaavey/baileys": "github:seaavey/baileys",
+    "@seaavey/baileys": "latest",
     "cheerio": "^1.0.0",
     "lodash": "^4.17.21",
     "steno": "^1.0.0"
